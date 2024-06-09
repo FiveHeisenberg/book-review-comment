@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #545454;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex; /* Menjadikan body sebagai flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah */
+    align-items: center; /* Mengatur konten secara vertikal di tengah */
+}
+
+.main-container {
+    background-color: #ffdde2bf;
+    width: 30rem;
+    box-shadow: 400px 400px 400px 400px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img img {
+    max-width: 70%;
+    height: auto;
+}
+
+.desk {
+    text-align: justify;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none; /* Menjadikan textarea tetap */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.comment {
+    margin-top: 20px;
+    background-color: #97F9F9;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-bottom: 1px;
+}
+
+.comment h4 {
+    margin-bottom: 5px;
+}
+
+.comment p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
